@@ -231,6 +231,20 @@ export default function Home() {
 
       </div>
 
+      {/* QR/Link button — fixed bottom right */}
+      <div className="fixed bottom-6 right-6">
+        <Link
+          href="/qr"
+          className="flex items-center gap-2 text-sm font-semibold px-4 py-2.5 rounded-xl border border-yellow-600/50 bg-yellow-950/40 text-yellow-400 hover:bg-yellow-950/60 hover:border-yellow-500 hover:text-yellow-300 transition-all duration-150 shadow-lg"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 013.75 9.375v-4.5zM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 01-1.125-1.125v-4.5zM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0113.5 9.375v-4.5z" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 6.75h.75v.75h-.75v-.75zM6.75 17.25h.75v.75h-.75v-.75zM16.5 6.75h.75v.75h-.75v-.75zM13.5 13.5h.75v.75h-.75v-.75zM13.5 19.5h.75v.75h-.75v-.75zM19.5 13.5h.75v.75h-.75v-.75zM19.5 19.5h.75v.75h-.75v-.75zM16.5 16.5h.75v.75h-.75v-.75z" />
+          </svg>
+          QR / Link
+        </Link>
+      </div>
+
       {/* Footer */}
       <footer className="border-t border-neutral-800 mt-16">
         <div className="max-w-4xl mx-auto px-6 py-6 text-center text-xs text-neutral-600">
