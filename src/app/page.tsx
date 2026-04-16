@@ -155,7 +155,7 @@ export default function Home() {
               <h3 className="text-sm font-semibold text-neutral-300 uppercase tracking-wide">How to Enter</h3>
               <ol className="space-y-1.5 text-sm text-neutral-400">
                 <li className="flex gap-2.5"><span className="shrink-0 text-violet-500 font-semibold">1.</span>Record your KiloClaw use case in action</li>
-                <li className="flex gap-2.5"><span className="shrink-0 text-violet-500 font-semibold">2.</span>Post the video to X, LinkedIn, or Instagram</li>
+                <li className="flex gap-2.5"><span className="shrink-0 text-violet-500 font-semibold">2.</span>Post the video to X, LinkedIn, or Instagram with <span className="text-violet-400 font-medium">#clawcon</span></li>
                 <li className="flex gap-2.5"><span className="shrink-0 text-violet-500 font-semibold">3.</span>Tag Kilo using the accounts below — the best use cases win</li>
               </ol>
             </div>
