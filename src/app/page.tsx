@@ -87,81 +87,12 @@ export default function Home() {
         {/* Hero */}
         <section className="text-center space-y-6">
           <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">
-            ClawCon Michigan
+            ClawShop 2
           </h1>
           <p className="text-lg font-medium text-neutral-400 sm:text-xl">KiloClaw Resource Guide</p>
-          <div className="flex justify-center items-center gap-10 sm:gap-16 flex-wrap">
-            <Image
-              src="/clawcon.png"
-              alt="ClawCon"
-              width={200}
-              height={80}
-              loading="eager"
-              className="h-28 w-auto object-contain sm:h-44"
-            />
-            <Image
-              src="/um.png"
-              alt="University of Michigan"
-              width={200}
-              height={80}
-              loading="eager"
-              className="h-28 w-auto object-contain sm:h-44"
-            />
-            <Image
-              src="/oc.png"
-              alt="OC"
-              width={200}
-              height={80}
-              loading="eager"
-              className="h-28 w-auto object-contain sm:h-44"
-            />
-          </div>
-        </section>
 
-        {/* Contest */}
-        <section className="space-y-6">
-          <div className="rounded-2xl border border-violet-700/40 bg-violet-950/20 p-6 sm:p-8 space-y-6">
-            {/* Header */}
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-semibold uppercase tracking-widest text-violet-400 border border-violet-700/40 bg-violet-950/40 px-2.5 py-1 rounded-full">Contest</span>
-              </div>
-              <h2 className="text-2xl font-bold text-white">Share Your KiloClaw Setup &amp; Win</h2>
-              <p className="text-neutral-400 leading-relaxed">
-                Record your KiloClaw use case, post it to socials, tag Kilo — the best submissions win cash prizes.
-              </p>
-            </div>
-
-            {/* Prizes */}
-            <div className="grid sm:grid-cols-2 gap-3">
-              <div className="flex items-center gap-4 rounded-xl border border-yellow-600/30 bg-yellow-950/20 px-5 py-4">
-                <div className="shrink-0 text-2xl font-black text-yellow-400">🥇</div>
-                <div>
-                  <div className="text-lg font-bold text-yellow-300">$1,000</div>
-                  <div className="text-sm text-neutral-500">First place</div>
-                </div>
-              </div>
-              <div className="flex items-center gap-4 rounded-xl border border-neutral-700/50 bg-neutral-900/60 px-5 py-4">
-                <div className="shrink-0 text-2xl font-black text-neutral-400">🥈</div>
-                <div>
-                  <div className="text-lg font-bold text-neutral-200">4 × $500</div>
-                  <div className="text-sm text-neutral-500">Runner-up prizes</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Rules */}
-            <div className="space-y-2">
-              <h3 className="text-sm font-semibold text-neutral-300 uppercase tracking-wide">How to Enter</h3>
-              <ol className="space-y-1.5 text-sm text-neutral-400">
-                <li className="flex gap-2.5"><span className="shrink-0 text-violet-500 font-semibold">1.</span>Record your KiloClaw use case in action</li>
-                <li className="flex gap-2.5"><span className="shrink-0 text-violet-500 font-semibold">2.</span>Post the video to X, LinkedIn, or Instagram with <span className="text-violet-400 font-medium">#clawcon</span></li>
-                <li className="flex gap-2.5"><span className="shrink-0 text-violet-500 font-semibold">3.</span>Tag Kilo using the accounts below — the best use cases win</li>
-              </ol>
-            </div>
-
-            {/* Social links */}
-            <div className="flex flex-wrap gap-3 pt-1">
+          {/* Social links */}
+          <div className="flex flex-wrap justify-center gap-3">
               <a
                 href="https://x.com/kilocode"
                 target="_blank"
@@ -198,8 +129,20 @@ export default function Home() {
                 </svg>
                 @kilocodeai
               </a>
-            </div>
           </div>
+        </section>
+
+        {/* Speakers / Schedule */}
+        <section className="space-y-6">
+          <Link
+            href="/speakers"
+            className="flex items-center justify-between w-full rounded-2xl border border-neutral-700 bg-neutral-900 px-6 py-5 text-white hover:border-neutral-500 hover:bg-neutral-800 transition-all duration-150"
+          >
+            <span className="text-lg font-semibold">Speakers / Schedule</span>
+            <svg className="w-5 h-5 text-neutral-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M9 18l6-6-6-6" />
+            </svg>
+          </Link>
         </section>
 
         {/* KiloClaw Signup */}
@@ -215,7 +158,7 @@ export default function Home() {
               <p className="text-neutral-400 leading-relaxed">Get started with KiloClaw — the AI-powered coding assistant. Sign up for free and start building your personal AI agent today.</p>
             </div>
             <a
-              href="https://kilo.codes/ClawShopCreate"
+              href="https://kilo.codes/clawshop2_new"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-xl transition-colors duration-150 text-base w-full sm:w-auto justify-center sm:justify-start"
