@@ -19,13 +19,6 @@ const slots: { time: string; speakers: { name: string; role: string; company: st
         image: "/brian.jpeg",
         linkedin: "https://www.linkedin.com/in/brian-turcotte/",
       },
-      {
-        name: "Brendan O'Leary",
-        role: "Developer Relations",
-        company: "Kilo",
-        image: "/brendan.jpeg",
-        linkedin: "https://www.linkedin.com/in/olearycrew/",
-      },
     ],
   },
   {
