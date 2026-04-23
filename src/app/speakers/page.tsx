@@ -60,11 +60,11 @@ const slots: { time: string; speakers: { name: string; role: string; company: st
     time: "1:00 PM EST",
     speakers: [
       {
-        name: "Felipe Abello",
+        name: "Karen Serfaty",
         role: "",
         company: "AgentCard",
-        image: "/felipe.png",
-        linkedin: "https://www.linkedin.com/in/pipeabello/",
+        image: "/karen.jpeg",
+        linkedin: "https://www.linkedin.com/in/keyserfaty/?locale=en",
       },
     ],
   },
