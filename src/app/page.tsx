@@ -87,7 +87,7 @@ export default function Home() {
         {/* Hero */}
         <section className="text-center space-y-6">
           <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">
-            ClawShop 2
+            KiloClaw Setup Buddy
           </h1>
           <p className="text-lg font-medium text-neutral-400 sm:text-xl">KiloClaw Resource Guide</p>
 
