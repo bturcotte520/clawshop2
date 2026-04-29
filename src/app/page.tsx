@@ -132,19 +132,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Speakers / Schedule */}
-        <section className="space-y-6">
-          <Link
-            href="/speakers"
-            className="flex items-center justify-between w-full rounded-2xl border border-neutral-700 bg-neutral-900 px-6 py-5 text-white hover:border-neutral-500 hover:bg-neutral-800 transition-all duration-150"
-          >
-            <span className="text-lg font-semibold">Speakers / Schedule</span>
-            <svg className="w-5 h-5 text-neutral-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M9 18l6-6-6-6" />
-            </svg>
-          </Link>
-        </section>
-
         {/* KiloClaw Signup */}
         <section className="space-y-6">
           <div className="space-y-1">
